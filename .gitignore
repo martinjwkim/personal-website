@@ -1,0 +1,7 @@
+node_modules/
+dist/
+.DS_Store
+temporary screenshots/
+*.local
+Profile.pdf
+IMG_1370.jpeg
