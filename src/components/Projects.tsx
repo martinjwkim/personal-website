@@ -3,17 +3,31 @@ import { motion, useInView } from 'framer-motion'
 
 const projects = [
   {
+    name: 'West Coast Pickleball',
+    description:
+      "A multi-page site for Orange County's only indoor & outdoor pickleball facility. Covers membership, lessons, clinics, and league play — structured to turn drop-in players into members.",
+    url: 'https://wcpb.vercel.app',
+    tags: ['React', 'Multi-page', 'Responsive'],
+  },
+  {
+    name: 'Taberu Sushi',
+    description:
+      'An editorial-style site for a Santa Ana omakase restaurant — full menu, chef story, and Yelp reservations wrapped in a moody, magazine-grade aesthetic.',
+    url: 'https://taberusushi.vercel.app',
+    tags: ['React', 'Multi-page', 'Responsive'],
+  },
+  {
+    name: 'KSK Body Fit',
+    description:
+      'A bilingual (Korean/English) site for a Diamond Bar fitness studio offering diet dance, Zumba, and Pilates with an ACE-certified instructor. Class schedule, pricing, and an inquiry form built to drive sign-ups.',
+    url: 'https://kskbodyfit.com',
+    tags: ['React', 'Bilingual', 'Responsive'],
+  },
+  {
     name: 'OC Wedding Desserts',
     description:
       'A vendor showcase for an Orange County wedding dessert business. Features a curated gallery, menu, and contact section — designed to convert engaged couples into clients.',
     url: 'https://oc-wedding-desserts.vercel.app',
-    tags: ['React', 'Vercel', 'Responsive'],
-  },
-  {
-    name: 'Freda Staire Dance Studio',
-    description:
-      'A studio website for a dance school featuring class listings, instructor profiles, and a clean booking-oriented layout that reflects the studio\'s warmth and energy.',
-    url: 'https://fredastairedancestudio.vercel.app',
     tags: ['React', 'Vercel', 'Responsive'],
   },
 ]
